@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clube AcquaSummer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-info">
+            <div class="container">
+                <a class="navbar-brand" href="#">Acqua Summer</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Quem somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ingressos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Contato
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Formulário de contato</a></li>
+                                <li><a class="dropdown-item" href="#">Nosso WhatsApp</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Sugestões/Reclamações</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+      <h1 class="text-center p-2 bg-primary">Venha se divertir e conhecer o melhor parque aquático do Brasil!</h1>
+      <h2 class="text-center p-2 bg-warning">Explore o Refúgio Refrescante do Acqua Summer!</h2>
+    </header>
+    <section class="container text-center">
+        <div class="text-center">
+            <p>Bem-vindo ao destino definitivo para diversão e relaxamento sob o sol radiante! No coração da natureza exuberante, a Acqua Summer oferece uma fuga emocionante para todos os amantes da água.<br>Desde emocionantes toboáguas até piscinas relaxantes, cada momento é uma aventura inesquecível.</p>
+        </div>
+        <div class="row justify-content-center">
+            <figure class="col-lg-6 col-md-8 col-sm-10 col-12 text-center">
+                <img src="img/clube.jpg" alt="clubeaquatico" class="img-fluid">
+                <figcaption>AcquaSummer VIP</figcaption>
+            </figure>
+        </div>
+        <p>Com uma variedade de atrações aquáticas para todas as idades, nosso parque é o lugar ideal para famílias, amigos e amantes de adrenalina.<br> Desafie-se nos tobogãs emocionantes, mergulhe em piscinas refrescantes ou simplesmente relaxe em nossa área de descanso. Na Acqua Summer, a diversão está garantida para todos!</p>   
+        <p>Nossa equipe dedicada está sempre pronta para garantir sua segurança e conforto, para que você possa aproveitar ao máximo sua experiência aquática.<br> Então, traga seu traje de banho e junte-se a nós para um dia cheio de risos, alegria e memórias duradouras na Acqua Summer - onde a diversão nunca para!</p> 
+        <p>Na AcquaSummer, somos mais do que apenas um parque aquático - somos um destino dedicado a proporcionar momentos inesquecíveis de diversão e relaxamento para todas as idades.<br>Fundada com a paixão por criar experiências únicas e refrescantes, nossa equipe está comprometida em oferecer um ambiente seguro, emocionante e acolhedor para todos os nossos visitantes.</p>
+    </section>
+
+    <section class="container text-center">
+        <h2>Confira os valores dos nossos ingressos</h2>
+        <table class="table table-warning table-striped table-hover table-bordered border-warning mx-auto">
+            <caption class="bg-danger-subtle">Obs: a meia entrada só será aceita mediante apresentação da carteirinha de estudante ou carteirinha do idoso!</caption>
+            <thead class="table-secondary">
+                <tr>
+                    <th>Ingressos</th>
+                    <th>Valores</th>
+                </tr>
+            </thead>
+            <tbody class="table-group-divider">
+                <tr>
+                    <td>Ingresso individual (inteiro)</td>
+                    <td>R$ 80,00</td>
+                </tr>
+                <tr>
+                    <td>Ingresso individual (meia entrada)</td>
+                    <td>R$ 40,00</td>
+                </tr>
+                <tr>
+                    <td>Ingresso grupo (até 4 pessoas)</td>
+                    <td>R$ 256,00</td>
+                </tr>
+             </tbody>
+        </table>
+    </section>
+
+    <h2 class="text-center">Garanta já o seu ingresso!</h2>
+    <p class="text-center">Venha usufruir do melhor parque aquático do Brasil!</p>
+    
+    <section class="container">
+        <form method="GET" action="">
+            <fieldset>
+                <legend>Compra de ingressos</legend>
+                <div class="mb-3">
+                    <label class="form-label" for="nome">Nome completo</label>
+                    <input type="text" class="form-control" name="name"required id="nome">
+                 </div>
+                 <div class="mb-3">
+                    <label class="form-label" for="CPF">CPF</label>
+                    <input type="text" class="form-control" name="CPF" placeholder="XXX.XXX.XXX-XX" required id="CPF">
+                </div>
+                 <div class="mb-3">
+                    <label class="form-label" for="email">E-mail</label>
+                    <input type="email" class="form-control" name="email" placeholder="email@xyz.com" required id="email">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="QtdIngresso">Quantidade de ingressos</label>
+                    <input type="number" class="form-control" name="QtdIngresso" required id="QtdIngresso">
+                </div>
+                <div>
+                    <label class="form-label" for="dataIda">Escolha a data</label>
+                    <input type="date" class="form-control" required name="dataIda"><br>
+                </div>
+                
+            </fieldset>
+            <button class="btn btn-info">Comprar</button><br><br>
+        </form>
+    </section>
+    
+    <footer class="container-fluid bg-warning text-center"> 
+        <p>Copyright ©2024; Todos os direitos reservados - Desenvolvido por Gabriella Cabral</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
